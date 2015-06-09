@@ -1,0 +1,327 @@
+/*
+Theme Name: Vivian-Photography
+
+Author: Oxana Web
+Author URI: http://oxanaweb.com/
+Description: Simple modern responsive theme for vivian photography website. 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: portfolio, black, personal, one-column, bootstrap framework.
+
+This theme is designed with bootstrap framework to showcase the work of the professional photographer Vivian Miller.
+*/
+
+*{
+    
+    font-family: font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+	height: 100%;
+	overflow: auto;
+}
+
+body {
+	
+    background-color: #000;
+    color: #FFF;  
+
+}
+
+.container {
+	/*background-image: url(../img/vivian.jpg); */
+	background-color: #fff;
+	color: #000;
+	width: 80%;
+	margin-top: -20px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.container p {
+	font-size: 16px;
+	letter-spacing: normal;
+    line-height: 1.5;
+    font-family: 'Didact Gothic', sans-serif;
+    color: #2a2a2a;
+}
+
+.heading {
+	text-align: center;
+
+}
+
+.heading h1 {
+	color: rgba(0,0,0,1);
+	font-size: 160%;
+	font-weight: normal;
+    text-transform: none;
+    letter-spacing: 1.5px;
+    text-shadow: rgba(0,0,0,0) 0px 0px 0px;
+    margin-bottom: 20px;
+   
+}
+
+/*.navbarmain {
+	background-color: rgba(10,9,10,0.5);
+	min-height: 100px;
+	border-color: rgba(106,104,107,0.5);
+	margin-bottom: -100px;
+	border-radius: 0px;
+	position: relative;
+    width: 100%;
+    padding: 0px;
+    left: 0;
+    top: 0;
+    z-index: 2;
+	
+}*/
+
+.navbar-header img {
+	width: 400px;
+	margin-top: -40px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #FFF;
+	margin-top: 20px;
+	font-size: 17px;
+	margin-right: 20px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #C49139;
+}
+
+.navbar-default .navbar-nav > li > a:visited {
+	color: #FFF;
+}
+
+.navbarmine {
+	margin-bottom: 50px;
+	background-color: #000;
+	border-radius: 0px;
+	min-height: 100px;
+	border-color: #000;
+	border-bottom-color: rgba(106,104,107,0.5);
+
+}
+
+.dropdown-menu {
+	background-color: rgba(10,9,10,0.5);
+}
+.menutherest {
+	background-color: #000;
+}
+
+.dropdown-menu > li > a {
+	color: #FFF;
+}
+.dropdown-menu > li > a:hover {
+	background-color: rgba(10,9,10,0.5);
+	color: #C49139;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	background-color: rgba(10,9,10,0.5);
+	color: #C49139;
+	border-radius: 3px;
+}
+
+.item img {
+	width: 100%;
+}
+
+/*hr {
+margin-top: 20px;
+margin-bottom: 20px;
+border: 0;
+border-top: 1px solid rgba(106,104,107,0.5);
+}*/
+
+.stars {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.stars p {
+    font-size: 24px;
+	letter-spacing: 6px;
+}
+
+.stars a {
+	color: #4a8ac5;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 17px;
+    font-family: 'Didact Gothic', sans-serif;
+
+}
+
+.stars a:hover {
+	color: #C49139;
+}
+
+/*.footer {
+	text-align: center;
+	min-height: 100px;
+	width: 100%;
+	background-color: rgba(10,9,10,0.5);
+	position: relative;
+	z-index: 1;
+    overflow: hidden;
+}
+
+.footer p {
+	padding-top: 40px;
+	font-size: 13px;
+}*/
+
+.page-wrap {
+  min-height: 100%;
+  overflow: auto;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 142px; 
+}
+
+.site-footer {
+	text-align: center;
+	color: #1d75c5;
+    font-size: 12px;
+    padding-top: 10px;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: none;
+    background: #000;
+}
+
+.carousel-caption p {
+	font-size: 20px;
+	margin-bottom: 20px;
+
+}
+
+/*.wrapcarousel {
+	position: relative;
+    z-index: 1;
+    overflow: hidden;
+    pointer-events: none;
+    margin-bottom: -100px;
+    margin-right: -15px;
+    margin-left: -15px;
+}*/
+
+.wrapcarousel1 {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: -25px;
+}
+
+.carousel-indicators {
+    bottom: 100px;
+}
+
+.navbar-toggle {
+	margin-top: 30px;
+}
+
+.quote p {
+	font-family: 'Tangerine', cursive;
+	font-size: 138%;
+}
+
+.quote footer {
+	font-family: 'Tangerine', cursive;
+	font-size: 115%;
+}
+
+.myclass {
+	width: 40%;
+	margin-right: 20px;
+	
+}
+
+.testimimg {
+	margin-right: 20px;
+	width: 15%;
+}
+
+.testimonials {
+	border-top: #4a8ac5 dotted 1px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.contact {
+	background-image: url('http://www.vivianphotos.com/wp-content/uploads/2015/06/contact.jpg'); 
+	margin-top: -50px;
+}
+
+.contcontact {
+	background-color: transparent;
+	margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.blueimp-gallery {
+	color: #fff;
+}
+
+#links {
+	text-align: center;
+}
+input[type="submit"] {
+        background-color: #bb932d;
+        border-color: #bb932d;
+        padding: 5px;
+        border-radius: 3px;
+}
+
+form {
+	padding-top: 20px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width:979px) {
+  .navbar-header img {
+  	width: 250px;
+  	margin-top: -15px;
+  }
+  .navbarmain {
+  	margin-bottom: 0px;
+  }
+  .carousel-indicators {
+  	bottom: 100px;
+  }
+}
+
+@media only screen and (max-width:799px) {
+  .navbar-header img {
+  	   width: 200px;
+  	   margin-top: -10px;
+  }
+  .carousel-indicators {
+       bottom: 10px;
+  }
+ .wrapcarousel {
+ 	   margin-bottom: 0px;
+ }
+ .footer {
+ 	   background-color: #000;
+ }
+  
+}
+
